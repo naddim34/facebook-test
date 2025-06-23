@@ -1,0 +1,39 @@
+/* responchib suru */
+@media all and (max-width:1200px){
+		.middle-area {
+		width: 93%;
+		
+	}
+	
+}
+@media all and (max-width:1163px){
+	.logo-area {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+	
+	}
+	.login-area {
+    width: 100%;
+    float: none;
+	}
+	.login-area form {
+    float: none;
+	}
+	.login-first{
+	float:none;
+	}
+	.login-second{
+	float:none;
+	}
+	.login-submit{
+	float:none;
+	}
+	.login-area input[type="text"], 
+	.login-area input[type="password"]{
+   
+    width: 100%;
+	}
+	
+	
+}

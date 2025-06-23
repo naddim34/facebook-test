@@ -1,0 +1,237 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:tahoma;
+}
+.header-area{
+	background:#3E5791;
+	padding:10px ;
+}
+.middle-area{
+	width:90%;
+	margin:auto;
+}
+.logo-area{
+	width:60%;
+	float:left;
+}
+.login-area{
+	width:40%;
+	float:left;
+}
+.header-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.logo-area h1{
+	color:#fff;
+	font-size:64px;
+	margin:0;
+}
+.logo-area a{
+	text-decoration:none;
+	margin-top:30px;
+	display:block;
+}
+.login-first{
+	float:left;
+}
+.login-second{
+	float:left;
+}
+.login-submit{
+	float:left;
+}
+.amder-login:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.login-area form{
+	float:right;
+}
+.login-area input{
+	display:block;
+	margin-right:10px;
+	font-size:14px;
+	padding:3px;
+}
+.login-area label{
+	color:#fff;
+	font-size:20px;
+	margin-bottom:10px;
+	display:block;
+	cursor:pointer;
+	border:1px solid #3E63A9;
+}
+.login-second a{
+	text-decoration:none;
+	color:#fff;
+}
+.login-second a:hover{
+	text-decoration:underline;
+	
+}
+.login-submit input{
+	background:#3E5791;
+	margin-top:34px;
+	border:1px solid #3E5791;
+	color:#fff;
+	cursor:pointer;
+}
+/* sign up strat hear */
+.sginup-area{
+	background:linear-gradient(#fff,#D7DDE9);
+	height: 90vh;
+}
+.signup-left{
+	width:50%;
+	float:left;
+}
+.signup-right{
+	width:50%;
+	float:left;
+}
+.sginup-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.signup-left p{
+	font-size: 17px;
+	color:#1C1E21;
+	font-weight:bold;
+	width:90%;
+	margin: 50px 0 0;
+}
+.signup-right h2{
+	font-size:33px;
+	color:#1C1E21;
+	margin-bottom:10px;
+}
+.signup-right> p{
+	color:#333;
+	font-size:20px;
+	margin:10px 0;
+	
+}
+.signup-right input[type="text"],
+.signup-right input[type="password"]{
+	width:100%;
+	font-size:16px;
+	padding:5px;
+	margin:5px 0;
+	border-radius:3px;
+	border:1px solid #3E5791;
+	box-sizing:border-box;
+}
+.signup-right .username:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.signup-right .username input:nth-child(1){
+	width:48%;
+	float:left;
+	
+}.signup-right .username input:nth-child(2){
+	width:48%;
+	float:right;
+	
+}
+.birthday-area h3{
+	color:#333;
+	margin:2px 0;
+	font-size:15px;
+	font-weight:normal;
+}
+.birthday-option select{
+	padding:3px;
+	font-size:15px;
+	border:1px solid #3E5791;
+}
+.birthday-area:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.birthday-option{
+	float:left;
+	margin-right:5px;
+}
+.dirthday-link{
+	float:left;
+	width:200px;
+}
+.dirthday-link a{
+	color:#3E5791;
+	font-size:15px;
+}
+.gendar-area label{
+	color:#333;
+	font-size:18px;
+	margin-top:20px;
+	cursor:pointer;
+	display:inline-block;
+}
+p.policy{
+	color:#777;
+	font-size:15px;
+	width:75%;
+}
+p.policy a{
+	color:#3E5791;
+	font-size:15px;
+}
+.signup-right input[type="submit"]{
+	background-color: #00a400;
+	color:#fff;
+	padding:10px 30px;
+	border:none;
+	border-radius:5px;
+	font-size:25px;
+	cursor:pointer;
+	box-shadow:3px 2px 2px #777;
+	font-weight:bold;
+}
+.signup-right h4{
+	color:#777;
+	font-size:12px;
+	
+}
+.signup-right a{
+	color:#3E5791;
+	text-decoration:none;
+}
+/* footer start naw */
+.main-menu{
+	background:#27ae60;
+}
+.main-menu ul{
+	margin:0;
+	list-style:none;
+	padding:0;
+}
+.main-menu:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.main-menu ul li{
+	float:left;
+}
+.main-menu ul li a{
+	text-decoration:none;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
